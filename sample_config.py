@@ -20,7 +20,7 @@ class Config(object):
     # Datbase url heroku sets it automatically else get this from elephantsql
     DB_URI = os.environ.get("DATABASE_URL", None)
     # Get this value by running python3 stringsetup.py or https://repl.it/@sandeep1709/generatestringsession
-    STRING_SESSION = os.environ.get("STRING_SESSION", None)
+    STRING_SESSION = '1BVtsOJ0Bu2DUbOMtc5hErBuRw_xucxlN9DiwBCRicG8EnO6gVdqvYRX3yYf-bl1-YEBkjX8YrEzneqwPClO4Ytw8TLrJ2n9TZbozAK67bKQMan-aZeyKViDJIyPLvQdaoHgOF6wzAGpptEuN1olUF_Szn1xWocUuMb4_mfaM8z5Cy6Ve0ktnrrS7DQiBPoZ2YoY-QLaaZ31yP2nSUpTzNEQ5IKtViQyZQGF7JR08WcQwhf8f_M6Evq7iMFzOc6We_9lo2i3m9Eyl_M3_u3cedEaHOFhlfiKbNEROKWYarA1HKl1W_Q3oRMdqW5QbbZYdDFrqoWGbY_4tP7gcsYSeHhpcHma5kdE='
     # Telegram BOT Token and bot username from @BotFather
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN") or os.environ.get(
         "TG_BOT_TOKEN_BF_HER", None
